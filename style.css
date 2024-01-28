@@ -1,0 +1,115 @@
+* {
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+  }
+
+body,html
+  {
+ height :100%;
+  width:100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .page1
+  {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(213, 6, 6);
+  }
+  .nav
+  {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .navbar
+  {
+    padding:40px 20px;
+  }
+  .logo img
+  {
+    height: 120px;
+    width: 280px;
+    border-radius: 50%;
+    margin: 2px 0px;
+  }
+  .navbar .ul
+  {
+    display: flex;
+    list-style-type: none;
+  }
+  .navbar .ul li  a
+  {
+  text-decoration: none;
+  display: flex;
+  font-size: 23px;
+  color:white;
+  padding:0px 20px;
+  }
+ .btn 
+{
+    padding:40px 30px;
+}
+.btn button 
+{
+    padding:10px 30px;
+    border-radius:10px;
+    background-color: black;
+    color:white;
+    font-size: 17px;
+    border: none;
+    transition: all ease .5s;
+    border: 2px solid white;
+}
+
+.btn button:hover
+{
+    padding:11px 31px;
+    background-color: white;
+    color:black;
+}
+.content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page1 .content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+    position: relative;
+    top:80px;
+}
+.page1 
+{
+    background-color: black;
+}
+
+.page1 .left h1
+{
+    font-size: 80px;
+    color:white;
+}
+.page1 .left h3
+{
+    font-size: 20px;
+    color:white;
+}
+.page1 .right img
+{
+    height: 550px;
+    width: 550px;
+    rotate: 268deg;
+}
+.scroll
+{
+    font-size: 25px;
+    color:white;
+    position: relative;
+    bottom: -40px;
+    left:45%;
+}

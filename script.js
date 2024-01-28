@@ -1,0 +1,35 @@
+gsap.from(".logo",{
+    y:-200,
+    duration:1
+})
+gsap.from(".ul,li",{
+    y:-200,
+    duration:.8,
+    delay:1,
+    stagger:.4
+})
+gsap.from(".btn1",{
+  y:-500,
+    yoyo:true,
+    duration:5,
+})
+gsap.from(".left,h1,h3",{
+  x:-500,
+    yoyo:true,
+    duration:.5,
+    delay:5,
+    stagger:1
+})
+gsap.from(".img",{
+    scale:0,
+    duration:.5,
+    delay:8
+})
+
+gsap.from(".scroll",{
+    
+    y:20,
+    duration:.8,
+    repeat:Infinity,
+    yoyo:true
+})
